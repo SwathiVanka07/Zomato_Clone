@@ -79,11 +79,9 @@ pip install mysql-connector-python
 
 #### 2️⃣ Configure Database
 
-Edit the DBConfig in zomato_clone_full.py if needed:
+Edit the DBConfig in zomato_clone_code.py if needed:
 
-@dataclass
 
-class DBConfig:
 
     host: str = "localhost"
     
@@ -101,8 +99,8 @@ python zomato_clone_code.py
 
 ## Future Improvements
 
-Add admin dashboard for managing restaurants & menu
+1.Add admin dashboard for managing restaurants & menu
 
-Online order notifications / tracking
+2.Online order notifications / tracking
 
-Profile & saved addresses
+3.Profile & saved addresses
