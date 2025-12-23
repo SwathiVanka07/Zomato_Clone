@@ -5,19 +5,19 @@ It allows users to browse restaurants, view menus, place orders, write reviews, 
 
 ## Features
 
-### 🔑 User Authentication
+#### 🔑 User Authentication
 
   Signup with name, email, phone, and password
 
   Login with email + password (SHA256 encrypted)
 
-### 🏬 Restaurant & Menu Management
+#### 🏬 Restaurant & Menu Management
 
   Browse restaurants by city and search by name/cuisine
 
   Menu items categorized as Veg / Non-Veg
 
-### 🛒 Cart & Orders
+#### 🛒 Cart & Orders
 
   Add/remove items from cart
 
@@ -25,7 +25,7 @@ It allows users to browse restaurants, view menus, place orders, write reviews, 
 
   Place order with multiple items
 
-### 💳 Payments
+#### 💳 Payments
 
   Choose payment method: Cash / Card / UPI
 
@@ -35,7 +35,7 @@ It allows users to browse restaurants, view menus, place orders, write reviews, 
 
   Tracks paid/unpaid orders
 
-### 📦 Order Tracking
+#### 📦 Order Tracking
 
   View complete order history
 
@@ -43,7 +43,7 @@ It allows users to browse restaurants, view menus, place orders, write reviews, 
 
   Admin-like control to advance status
 
-### ⭐ Reviews & Ratings
+#### ⭐ Reviews & Ratings
 
   Leave reviews with rating (1–5 stars)
 
@@ -51,7 +51,7 @@ It allows users to browse restaurants, view menus, place orders, write reviews, 
 
   View past reviews
 
-### 📊 Database Schema (MySQL)
+#### 📊 Database Schema (MySQL)
 
   users, restaurants, menu_items, orders, order_items, reviews
 
@@ -59,7 +59,7 @@ It allows users to browse restaurants, view menus, place orders, write reviews, 
 
   Auto-seeds restaurants and menus on first run
 
-## Tech Stack
+### Tech Stack
 
   Python (Tkinter for GUI)
 
@@ -69,7 +69,7 @@ It allows users to browse restaurants, view menus, place orders, write reviews, 
 
   Random module for payment simulation
 
-## Setup Instructions
+### Setup Instructions
 
 #### 1️⃣ Install Requirements
 
@@ -97,10 +97,3 @@ It allows users to browse restaurants, view menus, place orders, write reviews, 
 
   python zomato_clone_code.py
 
-## Future Improvements
-
-  1.Add admin dashboard for managing restaurants & menu
-
-  2.Online order notifications / tracking
-
-  3.Profile & saved addresses
