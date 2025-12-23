@@ -7,75 +7,75 @@ It allows users to browse restaurants, view menus, place orders, write reviews, 
 
 #### 🔑 User Authentication
 
-  Signup with name, email, phone, and password
+  - Signup with name, email, phone, and password
 
-  Login with email + password (SHA256 encrypted)
+  - Login with email + password (SHA256 encrypted)
 
 #### 🏬 Restaurant & Menu Management
 
-  Browse restaurants by city and search by name/cuisine
+  - Browse restaurants by city and search by name/cuisine
 
-  Menu items categorized as Veg / Non-Veg
+  - Menu items categorized as Veg / Non-Veg
 
 #### 🛒 Cart & Orders
 
-  Add/remove items from cart
+  - Add/remove items from cart
 
-  Adjust quantity
+  - Adjust quantity
 
-  Place order with multiple items
+  - Place order with multiple items
 
 #### 💳 Payments
 
-  Choose payment method: Cash / Card / UPI
+  - Choose payment method: Cash / Card / UPI
 
-  Cash on Delivery option
+  - Cash on Delivery option
 
-  Simulated 95% success rate for Card/UPI payments
+  - Simulated 95% success rate for Card/UPI payments
 
-  Tracks paid/unpaid orders
+  -Tracks paid/unpaid orders
 
 #### 📦 Order Tracking
 
-  View complete order history
+  - View complete order history
 
-  Order statuses: PLACED → PREPARING → ON THE WAY → DELIVERED
+  - Order statuses: PLACED → PREPARING → ON THE WAY → DELIVERED
 
-  Admin-like control to advance status
+  - Admin-like control to advance status
 
 #### ⭐ Reviews & Ratings
 
-  Leave reviews with rating (1–5 stars)
+  - Leave reviews with rating (1–5 stars)
 
-  Average ratings displayed in restaurant list
+  - Average ratings displayed in restaurant list
 
-  View past reviews
+  - View past reviews
 
 #### 📊 Database Schema (MySQL)
 
-  users, restaurants, menu_items, orders, order_items, reviews
+  - users, restaurants, menu_items, orders, order_items, reviews
 
-  Automatic database + tables setup
+  - Automatic database + tables setup
 
-  Auto-seeds restaurants and menus on first run
+  - Auto-seeds restaurants and menus on first run
 
 ### Tech Stack
 
-  Python (Tkinter for GUI)
+  - Python (Tkinter for GUI)
 
-  MySQL (via mysql.connector)
+  - MySQL (via mysql.connector)
 
-  Dataclasses & Hashlib for secure user storage
+  - Dataclasses & Hashlib for secure user storage
 
-  Random module for payment simulation
+  - Random module for payment simulation
 
 ### Setup Instructions
 
 #### 1️⃣ Install Requirements
 
-  Make sure you have Python 3.x and MySQL installed.
+  - Make sure you have Python 3.x and MySQL installed.
 
-  pip install mysql-connector-python
+  - pip install mysql-connector-python
 
 #### 2️⃣ Configure Database
 
@@ -96,4 +96,17 @@ It allows users to browse restaurants, view menus, place orders, write reviews, 
 #### 3️⃣ Run the App
 
   python zomato_clone_code.py
+
+### What I learned from this project
+
+
+- Database design and SQL query optimization
+
+- Python–MySQL integration
+
+- Backend logic for food ordering workflows
+
+- GUI development with Tkinter
+
+- Real-world application structure and data flow
 
